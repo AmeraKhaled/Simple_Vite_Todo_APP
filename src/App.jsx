@@ -4,8 +4,10 @@ import { useEffect } from 'react'
 import './App.css'
 import TodoForm from './TodoForm'
 import TodoList from './TodoList'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import TodoDetails from './TodoDetails'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 function App() {
